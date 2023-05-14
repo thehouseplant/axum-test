@@ -10,3 +10,5 @@ install:
 	cargo add serde -F derive
 	cargo add serde_json
 	cargo add tower-http -F "cors"
+	# Enable hot reloading
+	cargo install cargo-watch
