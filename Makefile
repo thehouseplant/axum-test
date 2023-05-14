@@ -1,6 +1,9 @@
 dev:
 	cargo run
 
+start:
+	cargo watch -q -c -w src/ -x run
+
 install:
 	cargo add axum
 	cargo add tokio -F full
